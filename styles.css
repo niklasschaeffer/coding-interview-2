@@ -1,0 +1,82 @@
+
+
+.container {
+    position: relative;
+    display: grid;
+    grid-template-columns: min-content;
+    grid-template-rows: min-content min-content min-content min-content;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    border: 2px solid blue;
+    width: '100%';
+    border-radius: 6px;
+    max-width: 388px;
+    margin-top: 20px;
+    padding: 6px;
+    height: 500px;
+    grid-template-areas:
+      "imageContainer"
+      "nameContainer"
+      "locationContainer"
+      "buttonContainer";
+  }
+  
+  .imageContainer { grid-area: imageContainer; border-radius: 6px; width: '100%'; max-width: 310px;}
+  
+  .nameContainer { grid-area: nameContainer; margin-top: 15px; }
+  
+  .locationContainer { grid-area: locationContainer; margin-top: 15px; }
+  
+  .buttonContainer { grid-area: buttonContainer; }
+  
+  .button {
+    position: absolute;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    bottom: 10px;
+    right: 15px;
+  }
+
+  .icon {
+      margin-right: 5px;
+  }
+
+  .cardsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "card-1 card-2 card-3"
+      "card-4 card-5 card-6"
+      "card-7 card-8 card-9";
+  }
+  
+  .card-1 { grid-area: card-1; }
+  
+  .card-2 { grid-area: card-2; }
+  
+  .card-3 { grid-area: card-3; }
+  
+  .card-4 { grid-area: card-4; }
+  
+  .card-5 { grid-area: card-5; }
+  
+  .card-6 { grid-area: card-6; }
+  
+  .card-7 { grid-area: card-7; }
+  
+  .card-8 { grid-area: card-8; }
+  
+  .card-9 { grid-area: card-9; }
+  
+  

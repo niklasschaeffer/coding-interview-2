@@ -15,7 +15,7 @@ Build a static webpage which does have the following requirements !
 - clicking on the "send message" button should open a message modal
 
 ## Additional Tasks (Optional)
-- instead of using staticly served css and js files use the webpack module bundler to build a packages js file
+- instead of using staticly served css and js files use the webpack module bundler to build a packaged js/css file
 ## Tips and Resources:
 
 - [Bootstrap 4 CSS CDN](https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css)
